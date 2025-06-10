@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "npx webpack --mode=development --watch",
-    "prod": "npx webpack --mode=production"
+    "prod": "npx webpack --mode=production",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -38,4 +39,5 @@
   "dependencies": {
     "text-vide": "^1.8.1"
   }
+  
 }
